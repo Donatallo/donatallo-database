@@ -1,8 +1,8 @@
 - name: Blender
   comment: 3D modeling/rendering/animation/gaming package
   url: http://www.blender.org/
-  donation_url: http://www.blender.org/foundation/donation-payment/
-  donation_methods:
+  donations: http://www.blender.org/foundation/donation-payment/
+  methods:
     - paypal
     - bitcoin
     - bank_transfer
@@ -13,8 +13,8 @@
 - name: INSTEAD
   comment: Simple text adventures/visual novels engine
   url: http://instead.syscall.ru/
-  donation_url: http://instead.syscall.ru/donate/
-  donation_methods:
+  donations: http://instead.syscall.ru/donate/
+  methods:
     - yandex-money
   detection:
     pkgnames:
