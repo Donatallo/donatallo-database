@@ -1,5 +1,5 @@
 - name: 0 A.D.
-  description: Real-time strategy game of ancient warfare
+  comment: Real-time strategy game of ancient warfare
   url: https://play0ad.com/
   donations: https://play0ad.com/community/donate/
   methods:
