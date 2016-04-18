@@ -1,0 +1,25 @@
+- name: Blender
+  comment: 3D modeling/rendering/animation/gaming package
+  url: http://www.blender.org/
+  donations:
+    - type: url
+      url: http://www.blender.org/foundation/donation-payment/
+    - type: bitcoin
+      wallet: 17orEh51ab8HoU7g8Ezwcp76jCpeL7PabJ
+    - type: paypal
+      business: foundation@blender.org
+  detection:
+    pkgnames:
+      - blender
+
+- name: INSTEAD
+  comment: Simple text adventures/visual novels engine
+  url: http://instead.syscall.ru/
+  donations:
+    - type: url
+      url: http://instead.syscall.ru/donate/
+    - type: yandex-money
+      account: 41001612955830
+  detection:
+    pkgnames:
+      - instead
