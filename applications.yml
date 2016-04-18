@@ -27,7 +27,7 @@
   url: http://instead.syscall.ru/
   donations: http://instead.syscall.ru/donate/
   methods:
-    - yandex-money
+    - yandex_money
   detection:
     pkgnames:
       - instead
