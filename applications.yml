@@ -35,7 +35,7 @@
       - gimp
       - gimp-app
 
-- name: GPG
+- name: GnuPG
   comment:  GNU privacy guard - a free PGP replacement
   url: https://www.gnupg.org/
   donations: https://www.gnupg.org/donate/index.html
