@@ -31,6 +31,7 @@
   donations: http://instead.syscall.ru/donate/
   methods:
     - yandex_money
+    - paypal
   detection:
     pkgnames:
       - instead
