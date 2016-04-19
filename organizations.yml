@@ -1,4 +1,14 @@
 ---
+- name: Apache Software Foundation
+  comment: Non-profit organization to support Apache software projects
+  url: https://www.apache.org/foundation/
+  donations: https://www.apache.org/foundation/contributing.html
+  methods:
+    - amazon
+    - bitcoin
+    - cheque
+    - paypal
+
 - name: Electronic Frontier Foundation
   comment: Non-profit organization defending civil liberties in the digital world
   url: http://eff.org/
