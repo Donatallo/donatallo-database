@@ -33,7 +33,7 @@
     - litecoin
 
 - name: VideoLAN
-  comment: Non-profit organization developing free and open source multimedia software
+  comment: Non-profit organization developing libre multimedia software
   url: https://www.videolan.org
   donations: https://www.videolan.org/contribute.html#money
   methods:

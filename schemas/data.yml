@@ -10,6 +10,7 @@ sequence:
         type: str
       "comment":
         type: str
+        length: { max : 70 }
       "url":
         type: str
         required: yes
