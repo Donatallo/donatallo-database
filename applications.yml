@@ -26,6 +26,34 @@
       - gimp
       - gimp-app
 
+- name: GPG
+  comment:  GNU privacy guard - a free PGP replacement
+  url: https://www.gnupg.org/
+  donations: https://www.gnupg.org/donate/index.html
+  methods:
+    - credit_card
+    - paypal
+  detection:
+    pkgnames:
+      - gnupg
+      - gnupg1
+      - gnupg2
+
+- name: Python
+  comment: Interactive high-level object-oriented language
+  url: https://www.python.org/
+  donations: https://www.python.org/psf/donations/
+  methods:
+    - bank_transfer
+    - cheque
+    - credit_card
+    - paypal
+  detection:
+    pkgnames:
+      - python
+      - python2
+      - python3
+
 - name: Tiled
   comment: Free, easy to use and flexible tile map editor
   url: http://www.mapeditor.org/

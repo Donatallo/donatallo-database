@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.3.0
+
+* Added ```credit_card``` donation method
+
 ## 0.2.0
 
 * Added ```amazon``` donation method
