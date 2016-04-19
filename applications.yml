@@ -55,7 +55,7 @@
   methods:
     - paypal
     - flattr
-   #- hardware # useful?
+    - hardware
   detection:
     pkgnames:
       - mplayer
