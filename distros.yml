@@ -50,12 +50,12 @@
 
 - name: OpenBSD
   url: http://www.openbsd.org/
-  detection:
-    uname-s: OpenBSD
-    opsys: OpenBSD
   donations: http://www.openbsdfoundation.org/donations.html
   methods:
     - paypal
     - cheque
     - bank_transfer
     - bitcoin
+  detection:
+    uname-s: OpenBSD
+    opsys: OpenBSD
