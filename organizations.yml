@@ -1,0 +1,17 @@
+---
+- name: Electronic Frontier Foundation
+  comment: Non-profit organization defending civil liberties in the digital world
+  url: http://eff.org/
+  donations: https://supporters.eff.org/donate
+  methods:
+    - paypal
+    - cheque
+
+- name: Free Software Foundation
+  comment: Non-profit organization to support the free software movement
+  url: https://fsf.org/
+  donations: https://my.fsf.org/donate
+  methods:
+    - paypal
+    - bitcoin
+    - litecoin

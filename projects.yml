@@ -1,0 +1,9 @@
+---
+- name: OpenStreetMap
+  comment: Collaborative project to create a free editable map of the world
+  url: http://openstreetmap.org/
+  donations: http://wiki.openstreetmap.org/wiki/Donation
+  methods:
+    - bitcoin
+    - paypal
+    - bank_transfer
