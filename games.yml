@@ -45,6 +45,20 @@
     pkgnames:
       - kobodeluxe
 
+- name: LOVE # LÖVE actually, but we don't really support unicode for now
+  comment: 2D game development framework based on Lua and OpenGL
+  url: https://love2d.org/
+  methods:
+    - paypal
+	- flattr
+  detection:
+    pkgnames:
+      - love
+      - love2d
+      - love5  # FreeBSD; love doesn't really care
+      - love07 # of backwards compatibility, so
+      - love08 # we have to keep these around
+
 - name: M.A.X.R
   comment: Mechanized Assault and eXploration Reloaded
   url: http://www.maxr.org/
