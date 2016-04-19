@@ -50,7 +50,7 @@
   url: https://love2d.org/
   methods:
     - paypal
-	- flattr
+    - flattr
   detection:
     pkgnames:
       - love
