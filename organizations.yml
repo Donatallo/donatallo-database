@@ -32,6 +32,22 @@
     - bitcoin
     - litecoin
 
+- name: KDE e.V.
+  comment: Non-profit organization that represents the KDE community
+  url: https://www.kde.org/ # XXX: https://ev.kde.org/
+  donations: https://www.kde.org/community/donations/index.php
+  methods:
+    - bank_transfer
+    - cheque
+    - paypal
+  detection: # XXX: turn to application entries which point here
+    pkgnames:
+      - kde
+      - kde4
+      - kde-baseapps
+      - kde-runtime
+      - kde-plasma-desktop
+
 - name: Mozilla Foundation
   comment: Non-profit organization to support the open source Mozilla project
   url: https://mozilla.org/ # XXX: vs. https://www.mozilla.org/en-US/foundation/
