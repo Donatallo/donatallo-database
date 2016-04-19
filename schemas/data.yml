@@ -41,6 +41,8 @@ sequence:
               - paypal
               - pledgie
               - stripe
+              - webmoney
+              - western_union
               - yandex_money
       "detection":
         type: map

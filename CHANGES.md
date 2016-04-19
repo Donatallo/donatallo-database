@@ -1,5 +1,10 @@
 # Database version history
 
+## 0.6.0
+
+* Added ```webmoney``` donation method
+* Added ```western_union``` donation method
+
 ## 0.5.0
 
 * Added ```hardware``` donation method
