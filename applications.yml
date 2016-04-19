@@ -25,3 +25,16 @@
     pkgnames:
       - gimp
       - gimp-app
+
+- name: Tiled
+  comment: Free, easy to use and flexible tile map editor
+  url: http://www.mapeditor.org/
+  donations: http://www.mapeditor.org/donate.html
+  methods:
+    - bank_transfer
+    - bountysource
+    - patreon
+    - paypal
+  detection:
+    pkgnames:
+      - tiled
