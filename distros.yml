@@ -1,0 +1,60 @@
+- name: Arch Linux
+  url: http://www.archlinux.org/
+  donations: https://www.archlinux.org/donate/
+  methods:
+    - clickandpledge
+  detection:
+    file-in-etc: arch_version
+
+- name: Debian
+  url: http://www.debian.org/
+  donations: http://www.debian.org/donations
+  methods:
+    - paypal
+    - clickandpledge
+    - cheque
+    - bank_transfer
+  detection:
+    file-in-etc: debian_version
+
+- name: FreeBSD
+  url: http://freebsd.org/
+  donations: http://www.freebsdfoundation.org/donate/
+  methods:
+    - paypal
+    - clickandpledge
+    - bitcoin
+    - cheque
+  detection:
+    uname-s: FreeBSD
+    opsys: FreeBSD
+
+- name: Gentoo Linux
+  url: http://www.gentoo.org/
+  donations: https://www.gentoo.org/donate/
+  methods:
+    - paypal
+  detection:
+    file-in-etc: gentoo_version
+
+- name: NetBSD
+  url: http://netbsd.org/
+  donations: http://netbsd.org/donations/
+  methods:
+    - paypal
+  # - stripe # XXX: what is this?
+  detection:
+    uname-s: NetBSD # XXX: recheck
+    opsys: NetBSD
+
+- name: OpenBSD
+  url: http://www.openbsd.org/
+  detection:
+    uname-s: OpenBSD
+    opsys: OpenBSD
+  donations: http://www.openbsdfoundation.org/donations.html
+  methods:
+    - paypal
+    - cheque
+    - bank_transfer
+    - bitcoin
