@@ -11,6 +11,15 @@
     pkgnames:
       - blender
 
+- name: Doxygen
+  comment: 3D modeling/rendering/animation/gaming package
+  url: http://doxygen.org/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - doxygen
+
 - name: GIMP
   comment: GNU Image Manipulation Program
   url: http://www.gimp.org/
