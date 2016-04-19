@@ -8,6 +8,12 @@
     - bitcoin
     - cheque
     - paypal
+  detection: # XXX: turn to application entries which point here
+    pkgnames:
+      - apache
+      - apache13
+      - apache22
+      - apache24
 
 - name: Electronic Frontier Foundation
   comment: Non-profit organization defending civil liberties in the digital world
