@@ -1,8 +1,9 @@
 ---
-version: 0.3.0
+version: 0.4.0
 files:
   - applications.yml
   - distros.yml
   - games.yml
+  - libraries.yml
   - organizations.yml
   - projects.yml

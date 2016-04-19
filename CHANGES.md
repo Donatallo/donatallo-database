@@ -1,5 +1,10 @@
 # Database version history
 
+## 0.4.0
+
+* Added ```pledgie``` donation method
+* Added ```stripe``` donation method
+
 ## 0.3.0
 
 * Added ```credit_card``` donation method

@@ -1,0 +1,13 @@
+---
+- name: FreeType
+  comment: Freely available software library to render fonts
+  url: http://www.freetype.org/
+  methods:
+    - paypal
+    - pledgie
+  detection:
+    pkgnames:
+      - libfreetype
+      - freetype
+      - libfreetype2
+      - freetype2

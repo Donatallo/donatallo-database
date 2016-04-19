@@ -38,6 +38,8 @@ sequence:
               - merchandise
               - patreon
               - paypal
+              - pledgie
+              - stripe
               - yandex_money
       "detection":
         type: map

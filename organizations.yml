@@ -32,6 +32,21 @@
     - bitcoin
     - litecoin
 
+- name: Mozilla Foundation
+  comment: Non-profit organization to support the open source Mozilla project
+  url: https://mozilla.org/ # XXX: vs. https://www.mozilla.org/en-US/foundation/
+  donations: https://donate.mozilla.org/
+  methods:
+    - bitcoin
+    - paypal
+    - stripe
+  detection: # XXX: turn to application entries which point here
+    pkgnames:
+      - firefox
+      - firefox-esr
+      - thinderbird
+      - thinderbird-esr
+
 - name: VideoLAN
   comment: Non-profit organization developing libre multimedia software
   url: https://www.videolan.org
