@@ -64,7 +64,6 @@
 - name: Kobo Deluxe
   comment: Game of space battle
   url: http://www.olofson.net/kobodl/
-  donations: http://www.olofson.net/kobodl/
   methods:
     - paypal
   detection:
@@ -74,7 +73,6 @@
 - name: M.A.X.R
   comment: Mechanized Assault and eXploration Reloaded
   url: http://www.maxr.org/
-  donations: https://www.maxr.org/
   methods:
     - paypal
   detection:
@@ -125,7 +123,6 @@
 - name: Widelands
   comment: Realtime strategy game inspired by Settlers II
   url: https://wl.widelands.org/
-  donations: https://wl.widelands.org/
   methods:
     - paypal
   detection:
