@@ -1,5 +1,7 @@
 # Donatallo donations database
 
+[![Build Status](https://travis-ci.org/Donatallo/donatallo-database.svg?branch=master)](https://travis-ci.org/Donatallo/donatallo-database)
+
 This is a database of FLOSS projects accepting donations for
 [Donatallo](https://github.com/Donatallo) project.
 
@@ -20,6 +22,11 @@ There's no clear policy on what projects may or may not be added
 to the database for now, though it's likely to be made up later.
 Author reserves the right to moderate the database based on his
 own judgment.
+
+## Validation
+
+YAML schemas may be validated with [kwalify](http://www.kuwata-lab.com/kwalify/).
+Install kwalify and run ```make``` to perform schema validation.
 
 ## Author
 
