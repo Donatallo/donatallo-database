@@ -32,6 +32,20 @@
     - bitcoin
     - litecoin
 
+- name: GNOME Fountetion
+  comment: Non-profit organization coordinating the efforts in the GNOME project
+  url: https://www.gnome.org/ # XXX: https://www.gnome.org/foundation/
+  donations: https://www.gnome.org/friends/other-ways-to-donate/
+  methods:
+    - bank_transfer
+    - bitcoin
+    - cheque
+    - flattr
+  detection: # XXX: turn into application entries which point here
+    pkgnames:
+      - gnome
+      - gnome3
+
 - name: KDE e.V.
   comment: Non-profit organization that represents the KDE community
   url: https://www.kde.org/ # XXX: https://ev.kde.org/
