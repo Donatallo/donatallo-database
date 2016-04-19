@@ -125,7 +125,7 @@
 - name: Widelands
   comment: Realtime strategy game inspired by Settlers II
   url: https://wl.widelands.org/
-  donations: https://wl.widelands.org//
+  donations: https://wl.widelands.org/
   methods:
     - paypal
   detection:
