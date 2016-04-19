@@ -14,10 +14,10 @@ sequence:
       "url":
         type: str
         required: yes
-        pattern: /^https?:\/\/.*$/
+        pattern: /^https?:\/\/[^/]+/.*$/
       "donations":
         type: str
-        pattern: /^https?:\/\/.*$/
+        pattern: /^https?:\/\/[^/]+/.*$/
       "methods":
         type: seq
         required: yes

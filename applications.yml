@@ -91,7 +91,7 @@
 
 - name: Tor Project
   comment: Anonymizing overlay network for TCP
-  url: https://www.torproject.org
+  url: https://www.torproject.org/
   donations: https://www.torproject.org/donate/donate-options.html.en
   methods:
     - amazon

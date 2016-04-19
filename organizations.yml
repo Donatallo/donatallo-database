@@ -49,7 +49,7 @@
 
 - name: VideoLAN
   comment: Non-profit organization developing libre multimedia software
-  url: https://www.videolan.org
+  url: https://www.videolan.org/
   donations: https://www.videolan.org/contribute.html#money
   methods:
     - bank_transfer
