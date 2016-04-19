@@ -31,3 +31,15 @@
     - paypal
     - bitcoin
     - litecoin
+
+- name: VideoLAN
+  comment: Non-profit organization developing free and open source multimedia software
+  url: https://www.videolan.org
+  donations: https://www.videolan.org/contribute.html#money
+  methods:
+    - bank_transfer
+    - bitcoin
+    - paypal
+  detection: # XXX: turn to application entries which point here
+    pkgnames:
+      - vlc
