@@ -1,0 +1,7 @@
+sudo: false
+language: ruby
+before_install:
+  - gem install kwalify
+script:
+  - make check 2>&1 | tee check.log
+  - if grep -q INVALID check.log; then echo "VALIDATION FAILED"; false; fi
