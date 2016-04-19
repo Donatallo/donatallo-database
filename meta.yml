@@ -3,5 +3,6 @@ version: 0.0.0
 files:
   - applications.yml
   - distros.yml
+  - games.yml
   - organizations.yml
   - projects.yml
