@@ -1,4 +1,16 @@
 ---
+- name: FFmpeg
+  comment: Cross-platform multimedia framework
+  url: https://www.ffmpeg.org/
+  donations: https://www.ffmpeg.org/donations.html
+  methods:
+    - clickandpledge
+    - cheque
+    - bank_transfer
+  detection:
+    pkgnames:
+      - ffmpeg
+
 - name: FreeType
   comment: Freely available software library to render fonts
   url: http://www.freetype.org/
