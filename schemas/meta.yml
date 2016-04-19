@@ -1,0 +1,14 @@
+---
+type: map
+mapping:
+  "version":
+    required: true
+    type: str
+    pattern: /^\d+\.\d+\.\d+$/
+  "files":
+    required: true
+    type: seq
+    sequence:
+      - unique: true
+        type: str
+        pattern: /.*\.yml$/

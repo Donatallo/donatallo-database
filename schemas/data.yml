@@ -1,0 +1,54 @@
+---
+type: seq
+required: yes
+sequence:
+  - type: map
+    required: yes
+    mapping:
+      "name":
+        required: true
+        type: str
+      "comment":
+        type: str
+      "url":
+        type: str
+        required: yes
+        pattern: /^https?:\/\/.*$/
+      "donations":
+        type: str
+        pattern: /^https?:\/\/.*$/
+      "methods":
+        type: seq
+        required: yes
+        sequence:
+          - type: str
+            unique: yes
+            enum:
+              - amazon
+              - bank_transfer
+              - bitcoin
+              - bountysource
+              - cheque
+              - clickandpledge
+              - credit_card
+              - dwolla
+              - flattr
+              - litecoin
+              - merchandise
+              - patreon
+              - paypal
+              - yandex_money
+      "detection":
+        type: map
+        mapping:
+          "pkgnames":
+            type: seq
+            sequence:
+              - type: str
+                unique: yes
+          "file-in-etc":
+            type: str
+          "uname-s":
+            type: str
+          "opsys":
+            type: str
