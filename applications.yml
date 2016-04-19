@@ -1,4 +1,18 @@
 ---
+- name: 3proxy
+  comment: Proxy server which supports HTTP(S), FTP, SOCKS, POP3, TCP & UDP
+  url: http://3proxy.ru/
+  donations: http://3proxy.ru/donations/
+  methods:
+    - bank_transfer
+    - bitcoin
+    - cheque
+    - webmoney
+    - western_union
+  detection:
+    pkgnames:
+      - 3proxy
+
 - name: Blender
   comment: 3D modeling/rendering/animation/gaming package
   url: http://www.blender.org/
