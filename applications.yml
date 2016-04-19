@@ -38,3 +38,18 @@
   detection:
     pkgnames:
       - tiled
+
+- name: Tor Project
+  comment: Anonymizing overlay network for TCP
+  url: https://www.torproject.org
+  donations: https://www.torproject.org/donate/donate-options.html.en
+  methods:
+    - amazon
+    - bank_transfer
+    - bitcoin
+    - cheque
+    - dwolla
+    - paypal
+  detection:
+    pkgnames:
+      - tor

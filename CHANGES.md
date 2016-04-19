@@ -1,5 +1,10 @@
 # Database version history
 
+## 0.2.0
+
+* Added ```amazon``` donation method
+* Added ```dwolla``` donation method
+
 ## 0.1.0
 
 * Added ```bountysource``` donation method
