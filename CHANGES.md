@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.5.0
+
+* Added ```hardware``` donation method
+
 ## 0.4.0
 
 * Added ```pledgie``` donation method

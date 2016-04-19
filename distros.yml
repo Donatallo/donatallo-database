@@ -18,6 +18,16 @@
   detection:
     file-in-etc: debian_version
 
+- name: DragonFly BSD
+  url: https://www.dragonflybsd.org/
+  donations: https://www.dragonflybsd.org/donations/
+  methods:
+    - paypal
+    - hardware
+  detection:
+    opsys: DragonFly
+    uname-s: DragonFly # XXX: recheck
+
 - name: FreeBSD
   url: http://freebsd.org/
   donations: http://www.freebsdfoundation.org/donate/
