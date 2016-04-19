@@ -43,7 +43,7 @@
   donations: http://netbsd.org/donations/
   methods:
     - paypal
-  # - stripe # XXX: what is this?
+    - stripe
   detection:
     uname-s: NetBSD # XXX: recheck
     opsys: NetBSD
