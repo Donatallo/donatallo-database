@@ -39,6 +39,19 @@
       - gnupg1
       - gnupg2
 
+- name: MPlayer
+  comment: High performance media player supporting many formats
+  url: https://www.mplayerhq.hu/
+  donations: https://www.mplayerhq.hu/design7/donations.html
+  methods:
+    - paypal
+    - flattr
+   #- hardware # useful?
+  detection:
+    pkgnames:
+      - mplayer
+      - mencoder
+
 - name: Python
   comment: Interactive high-level object-oriented language
   url: https://www.python.org/
