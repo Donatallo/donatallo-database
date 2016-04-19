@@ -8,7 +8,7 @@
     - bitcoin
     - cheque
     - paypal
-  detection: # XXX: turn to application entries which point here
+  detection: # XXX: turn into application entries which point here
     pkgnames:
       - apache
       - apache13
@@ -40,7 +40,7 @@
     - bank_transfer
     - cheque
     - paypal
-  detection: # XXX: turn to application entries which point here
+  detection: # XXX: turn into application entries which point here
     pkgnames:
       - kde
       - kde4
@@ -56,7 +56,7 @@
     - bitcoin
     - paypal
     - stripe
-  detection: # XXX: turn to application entries which point here
+  detection: # XXX: turn into application entries which point here
     pkgnames:
       - firefox
       - firefox-esr
@@ -71,6 +71,6 @@
     - bank_transfer
     - bitcoin
     - paypal
-  detection: # XXX: turn to application entries which point here
+  detection: # XXX: turn into application entries which point here
     pkgnames:
       - vlc
