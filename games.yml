@@ -89,6 +89,15 @@
     pkgnames:
       - openxcom
 
+- name: Red Eclipse
+  comment: Open-source arena shooter based on Cube2 engine
+  url: http://redeclipse.net/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - redeclipse
+
 - name: SuperTuxKart
   comment: Free 3D kart racing game
   url: http://supertuxkart.sourceforge.net/
