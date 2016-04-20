@@ -118,6 +118,19 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: Inkscape
+  comment: Professional cross-platform vector graphics editor
+  url: https://inkscape.org/
+  donations: https://inkscape.org/support-us/donate/
+  methods:
+    - paypal
+    - cheque
+  detection:
+    pkgnames:
+      - inkscape
+  added: 2016-04-20
+  last_checked: 2016-04-20
+
 - name: LibreOffice
   comment: Full integrated office productivity suite
   url: https://www.libreoffice.org/
