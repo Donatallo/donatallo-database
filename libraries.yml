@@ -11,6 +11,8 @@
       - libboost
       - libboost-all-dev
       - libboost-dev
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: FFmpeg
   comment: Cross-platform multimedia framework
@@ -23,6 +25,8 @@
   detection:
     pkgnames:
       - ffmpeg
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: FreeType
   comment: Freely available software library to render fonts
@@ -36,6 +40,8 @@
       - freetype
       - libfreetype2
       - freetype2
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: OpenCV
   comment: Open source computer vision and machine learning software library
@@ -45,3 +51,5 @@
   detection:
     pkgnames:
       - opencv
+  added: 2016-04-20
+  last_checked: 2016-04-20

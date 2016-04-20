@@ -59,3 +59,9 @@ sequence:
             type: str
           "opsys":
             type: str
+      "added":
+        type: date
+        required: true
+      "last_checked":
+        type: date
+        required: true

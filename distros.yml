@@ -6,6 +6,8 @@
     - clickandpledge
   detection:
     file-in-etc: arch_version
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Debian
   url: http://www.debian.org/
@@ -17,6 +19,8 @@
     - bank_transfer
   detection:
     file-in-etc: debian_version
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: DragonFly BSD
   url: https://www.dragonflybsd.org/
@@ -27,6 +31,8 @@
   detection:
     opsys: DragonFly
     uname-s: DragonFly # XXX: recheck
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: FreeBSD
   url: http://freebsd.org/
@@ -39,6 +45,8 @@
   detection:
     uname-s: FreeBSD
     opsys: FreeBSD
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Gentoo Linux
   url: http://www.gentoo.org/
@@ -47,6 +55,8 @@
     - paypal
   detection:
     file-in-etc: gentoo_version
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: NetBSD
   url: http://netbsd.org/
@@ -57,6 +67,8 @@
   detection:
     uname-s: NetBSD # XXX: recheck
     opsys: NetBSD
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: OpenBSD
   url: http://www.openbsd.org/
@@ -69,3 +81,5 @@
   detection:
     uname-s: OpenBSD
     opsys: OpenBSD
+  added: 2016-04-19
+  last_checked: 2016-04-19

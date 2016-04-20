@@ -10,6 +10,8 @@
   detection:
     pkgnames:
       - 0ad
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: EDuke32
   comment: Source port of the classic PC first person shooter Duke Nukem 3D
@@ -19,6 +21,8 @@
   detection:
     pkgnames:
       - eduke32
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Flare RPG
   comment: Free/Libre Action Roleplaying Engine
@@ -33,6 +37,8 @@
       - flare-game
       # may be mixed up with flare database (Flare - distributed and persistent key-value storage)
       - flare
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Godot Engine
   comment: Advanced, feature-packed, multi-platform 2D and 3D game engine
@@ -43,6 +49,8 @@
   detection:
     pkgnames:
       - godot
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: INSTEAD
   comment: Simple text adventures/visual novels engine
@@ -54,6 +62,8 @@
   detection:
     pkgnames:
       - instead
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Kobo Deluxe
   comment: Game of space battle
@@ -63,6 +73,8 @@
   detection:
     pkgnames:
       - kobodeluxe
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: LOVE # LÖVE actually, but we don't really support unicode for now
   comment: 2D game development framework based on Lua and OpenGL
@@ -77,6 +89,8 @@
       - love5  # FreeBSD; love doesn't really care
       - love07 # of backwards compatibility, so
       - love08 # we have to keep these around
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: M.A.X.R
   comment: Mechanized Assault and eXploration Reloaded
@@ -86,6 +100,8 @@
   detection:
     pkgnames:
       - maxr
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: MegaGlest
   comment: Cross-platform 3D real-time strategy game
@@ -97,6 +113,8 @@
   detection:
     pkgnames:
       - megaglest
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Minetest
   comment: Infinite-world block sandbox game
@@ -108,6 +126,8 @@
   detection:
     pkgnames:
       - minetest
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: OpenTTD
   comment: Open source simulation game based upon Transport Tycoon Deluxe
@@ -120,6 +140,8 @@
   detection:
     pkgnames:
       - openttd
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: OpenXcom
   comment: Open-source reimplementation of the original X-Com
@@ -130,6 +152,8 @@
   detection:
     pkgnames:
       - openxcom
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Red Eclipse
   comment: Open-source arena shooter based on Cube2 engine
@@ -139,6 +163,8 @@
   detection:
     pkgnames:
       - redeclipse
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: ScummVM
   comment: Engine for several graphical adventure games
@@ -148,6 +174,8 @@
   detection:
     pkgnames:
       - scummvm
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: SuperTuxKart
   comment: Free 3D kart racing game
@@ -158,6 +186,8 @@
   detection:
     pkgnames:
       - supertuxkart
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Warzone 2100
   comment: Innovative 3D real-time strategy game
@@ -168,6 +198,8 @@
   detection:
     pkgnames:
       - warzone2100
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Widelands
   comment: Realtime strategy game inspired by Settlers II
@@ -177,3 +209,5 @@
   detection:
     pkgnames:
       - widelands
+  added: 2016-04-19
+  last_checked: 2016-04-19

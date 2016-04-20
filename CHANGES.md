@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.8.0
+
+* Added ```added``` and ```last_checked``` fields
+
 ## 0.7.0
 
 * Added ```tibit``` donation method

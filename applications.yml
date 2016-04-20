@@ -12,6 +12,8 @@
   detection:
     pkgnames:
       - 3proxy
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Audacity
   comment: Cross-platform software for recording and editing sounds
@@ -22,6 +24,8 @@
   detection:
     pkgnames:
       - audacity
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Blender
   comment: 3D modeling/rendering/animation/gaming package
@@ -34,6 +38,8 @@
   detection:
     pkgnames:
       - blender
+  added: 2016-04-18
+  last_checked: 2016-04-18
 
 - name: Code::Blocks
   comment: Open source, cross platform, free C, C++ and Fortran IDE
@@ -44,6 +50,8 @@
   detection:
     pkgnames:
       - codeblocks
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Doxygen
   comment: 3D modeling/rendering/animation/gaming package
@@ -53,6 +61,8 @@
   detection:
     pkgnames:
       - doxygen
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: GIMP
   comment: GNU Image Manipulation Program
@@ -68,6 +78,8 @@
     pkgnames:
       - gimp
       - gimp-app
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: GnuPG
   comment: GNU privacy guard - a free PGP replacement
@@ -81,6 +93,8 @@
       - gnupg
       - gnupg1
       - gnupg2
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: GPSd
   comment: GPS service daemon
@@ -90,6 +104,8 @@
   detection:
     pkgnames:
       - gpsd
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Hugin
   comment: Panorama photo stitcher
@@ -99,6 +115,8 @@
   detection:
     pkgnames:
       - hugin
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: MariaDB
   comment: Multithreaded SQL database from developers of MySQL
@@ -114,6 +132,8 @@
       - mariadb55-server
       - mariadb100-server
       - mariadb101-server
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: MPlayer
   comment: High performance media player supporting many formats
@@ -127,6 +147,8 @@
     pkgnames:
       - mplayer
       - mencoder
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: MuseScore
   comment: Free music composition and notation software
@@ -143,6 +165,8 @@
   detection:
     pkgnames:
       - musescore
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: PostgreSQL
   comment: World's most advanced open source database
@@ -162,6 +186,8 @@
       - postgresql
       - postgresql-9.4
       - postgresql-server
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Python
   comment: Interactive high-level object-oriented language
@@ -181,6 +207,8 @@
       - python33
       - python34
       - python35
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Stellarium
   comment: Free open source planetarium for your computer
@@ -190,6 +218,8 @@
   detection:
     pkgnames:
       - stellarium
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Sweet Home 3D
   comment: Free interior design application
@@ -200,6 +230,8 @@
   detection:
     pkgnames:
       - sweethome3d
+  added: 2016-04-20
+  last_checked: 2016-04-20
 
 - name: Tiled
   comment: Free, easy to use and flexible tile map editor
@@ -213,6 +245,8 @@
   detection:
     pkgnames:
       - tiled
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: Tor Project
   comment: Anonymizing overlay network for TCP
@@ -228,6 +262,8 @@
   detection:
     pkgnames:
       - tor
+  added: 2016-04-19
+  last_checked: 2016-04-19
 
 - name: TuxGuitar
   comment: Open source tablature editor
@@ -239,3 +275,5 @@
   detection:
     pkgnames:
       - tuxguitar
+  added: 2016-04-20
+  last_checked: 2016-04-20
