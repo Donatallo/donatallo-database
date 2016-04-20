@@ -80,7 +80,7 @@
     - flattr
     - paypal
   detection:
-    pkgnames:
+    pkgnames: # XXX: needs periodical recheck
       - mariadb-server
       - mariadb55-server
       - mariadb100-server
@@ -123,7 +123,7 @@
     - paypal
     - bank_transfer
   detection:
-    pkgnames:
+    pkgnames: # XXX: needs periodical recheck
       - postgresql90-server
       - postgresql91-server
       - postgresql92-server
@@ -144,10 +144,14 @@
     - credit_card
     - paypal
   detection:
-    pkgnames:
+    pkgnames: # XXX: needs periodical recheck
       - python
       - python2
+      - python27
       - python3
+      - python33
+      - python34
+      - python35
 
 - name: Sweet Home 3D
   comment: Free interior design application
