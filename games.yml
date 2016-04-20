@@ -25,6 +25,16 @@
       # may be mixed up with flare database (Flare - distributed and persistent key-value storage)
       - flare
 
+- name: Godot Engine
+  comment: Advanced, feature-packed, multi-platform 2D and 3D game engine
+  url: http://www.godotengine.org/
+  donations: http://www.godotengine.org/donate
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - godot
+
 - name: INSTEAD
   comment: Simple text adventures/visual novels engine
   url: http://instead.syscall.ru/
