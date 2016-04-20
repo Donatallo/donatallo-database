@@ -75,6 +75,22 @@
       - mplayer
       - mencoder
 
+- name: MuseScore
+  comment: Free music composition and notation software
+  url: https://musescore.org/
+  donations: https://musescore.org/en/donate
+  methods:
+    - credit_card
+    - paypal
+    - bank_transfer
+    - patreon
+    - bitcoin
+    - tibit
+    - merchandise
+  detection:
+    pkgnames:
+      - musescore
+
 - name: Python
   comment: Interactive high-level object-oriented language
   url: https://www.python.org/

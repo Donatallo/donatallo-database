@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.7.0
+
+* Added ```tibit``` donation method
+
 ## 0.6.0
 
 * Added ```webmoney``` donation method

@@ -41,6 +41,7 @@ sequence:
               - paypal
               - pledgie
               - stripe
+              - tibit
               - webmoney
               - western_union
               - yandex_money
