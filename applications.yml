@@ -43,7 +43,7 @@
     - paypal # sourceforge button
   detection:
     pkgnames:
-      - blender
+      - codeblocks
 
 - name: Doxygen
   comment: 3D modeling/rendering/animation/gaming package
