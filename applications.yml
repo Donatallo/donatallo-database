@@ -30,7 +30,7 @@
   url: http://www.codeblocks.org/
   donations: http://www.codeblocks.org/donations
   methods:
-    - paypal
+    - paypal # sourceforge button
   detection:
     pkgnames:
       - blender
