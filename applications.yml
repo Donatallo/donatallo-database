@@ -25,6 +25,16 @@
     pkgnames:
       - blender
 
+- name: Code::Blocks
+  comment: Open source, cross platform, free C, C++ and Fortran IDE
+  url: http://www.codeblocks.org/
+  donations: http://www.codeblocks.org/donations
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - blender
+
 - name: Doxygen
   comment: 3D modeling/rendering/animation/gaming package
   url: http://doxygen.org/
