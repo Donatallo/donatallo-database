@@ -167,3 +167,14 @@
   detection:
     pkgnames:
       - tor
+
+- name: TuxGuitar
+  comment: Open source tablature editor
+  url: http://www.tuxguitar.com.ar/
+  donations: http://www.tuxguitar.com.ar/donate.html
+  methods:
+    - cheque
+    - paypal
+  detection:
+    pkgnames:
+      - tuxguitar
