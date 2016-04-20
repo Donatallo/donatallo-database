@@ -163,6 +163,15 @@
       - python34
       - python35
 
+- name: Stellarium
+  comment: Free open source planetarium for your computer
+  url: http://www.stellarium.org/
+  methods:
+    - paypal # sourceforge button
+  detection:
+    pkgnames:
+      - stellarium
+
 - name: Sweet Home 3D
   comment: Free interior design application
   url: http://www.sweethome3d.com/
