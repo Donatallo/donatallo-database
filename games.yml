@@ -140,6 +140,15 @@
     pkgnames:
       - redeclipse
 
+- name: ScummVM
+  comment: Engine for several graphical adventure games
+  url: http://scummvm.org/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - scummvm
+
 - name: SuperTuxKart
   comment: Free 3D kart racing game
   url: http://supertuxkart.sourceforge.net/
