@@ -87,6 +87,17 @@
     pkgnames:
       - maxr
 
+- name: MegaGlest
+  comment: Cross-platform 3D real-time strategy game
+  url: https://megaglest.org/
+  donations: https://megaglest.org/donations
+  methods:
+    - bitcoin
+    - flattr
+  detection:
+    pkgnames:
+      - megaglest
+
 - name: Minetest
   comment: Infinite-world block sandbox game
   url: http://minetest.net/
@@ -97,6 +108,18 @@
   detection:
     pkgnames:
       - minetest
+
+- name: OpenTTD
+  comment: Open source simulation game based upon Transport Tycoon Deluxe
+  url: https://www.openttd.org/
+  donations: https://www.openttd.org/donate
+  methods:
+    - bank_transfer
+    - cheque
+    - paypal
+  detection:
+    pkgnames:
+      - openttd
 
 - name: OpenXcom
   comment: Open-source reimplementation of the original X-Com
