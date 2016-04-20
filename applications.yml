@@ -62,6 +62,15 @@
       - gnupg1
       - gnupg2
 
+- name: GPSd
+  comment: GPS service daemon
+  url: http://www.catb.org/gpsd/
+  methods:
+    - patreon
+  detection:
+    pkgnames:
+      - gpsd
+
 - name: MPlayer
   comment: High performance media player supporting many formats
   url: https://www.mplayerhq.hu/
