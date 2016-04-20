@@ -307,3 +307,22 @@
       - tuxguitar
   added: 2016-04-20
   last_checked: 2016-04-20
+
+- name: Wine
+  comment: Compatibility layer capable of running Windows applications
+  url: https://www.winehq.org/
+  donations: https://www.winehq.org/donate
+  methods:
+    - paypal
+    - merchandise
+    - cheque
+  detection:
+    pkgnames:
+      - wine
+      - wine-devel
+      - wine-staging
+      - i386-wine # FreeBSD: wine for amd64
+      - i386-wine-devel
+      - i386-wine-staging
+  added: 2016-04-20
+  last_checked: 2016-04-20
