@@ -91,6 +91,15 @@
     pkgnames:
       - gpsd
 
+- name: Hugin
+  comment: Panorama photo stitcher
+  url: http://hugin.sourceforge.net/
+  methods:
+    - paypal # sourceforge button
+  detection:
+    pkgnames:
+      - hugin
+
 - name: MariaDB
   comment: Multithreaded SQL database from developers of MySQL
   url: https://mariadb.org/

@@ -36,3 +36,12 @@
       - freetype
       - libfreetype2
       - freetype2
+
+- name: OpenCV
+  comment: Open source computer vision and machine learning software library
+  url: http://opencv.org/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - opencv

@@ -11,6 +11,15 @@
     pkgnames:
       - 0ad
 
+- name: EDuke32
+  comment: Source port of the classic PC first person shooter Duke Nukem 3D
+  url: http://www.eduke32.com/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - eduke32
+
 - name: Flare RPG
   comment: Free/Libre Action Roleplaying Engine
   url: http://flarerpg.org/
