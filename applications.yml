@@ -115,6 +115,25 @@
     pkgnames:
       - musescore
 
+- name: PostgreSQL
+  comment: World's most advanced open source database
+  url: http://www.postgresql.org/
+  donations: http://www.postgresql.org/about/donate/
+  methods:
+    - paypal
+    - bank_transfer
+  detection:
+    pkgnames:
+      - postgresql90-server
+      - postgresql91-server
+      - postgresql92-server
+      - postgresql93-server
+      - postgresql94-server
+      - postgresql95-server
+      - postgresql
+      - postgresql-9.4
+      - postgresql-server
+
 - name: Python
   comment: Interactive high-level object-oriented language
   url: https://www.python.org/
