@@ -71,6 +71,21 @@
     pkgnames:
       - gpsd
 
+- name: MariaDB
+  comment: Multithreaded SQL database from developers of MySQL
+  url: https://mariadb.org/
+  donations: https://mariadb.org/donate/
+  methods:
+    - bank_transfer
+    - flattr
+    - paypal
+  detection:
+    pkgnames:
+      - mariadb-server
+      - mariadb55-server
+      - mariadb100-server
+      - mariadb101-server
+
 - name: MPlayer
   comment: High performance media player supporting many formats
   url: https://www.mplayerhq.hu/
