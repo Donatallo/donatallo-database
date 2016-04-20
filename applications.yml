@@ -115,6 +115,16 @@
       - python2
       - python3
 
+- name: Sweet Home 3D
+  comment: Free interior design application
+  url: http://www.sweethome3d.com/
+  donations: http://www.sweethome3d.com/donate.jsp
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - sweethome3d
+
 - name: Tiled
   comment: Free, easy to use and flexible tile map editor
   url: http://www.mapeditor.org/
