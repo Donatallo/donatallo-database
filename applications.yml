@@ -13,6 +13,16 @@
     pkgnames:
       - 3proxy
 
+- name: Audacity
+  comment: Cross-platform software for recording and editing sounds
+  url: http://www.audacityteam.org/
+  donations: http://www.audacityteam.org/donate/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - audacity
+
 - name: Blender
   comment: 3D modeling/rendering/animation/gaming package
   url: http://www.blender.org/
