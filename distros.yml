@@ -5,7 +5,7 @@
   methods:
     - clickandpledge
   detection:
-    file-in-etc: arch_version
+    file-in-etc: arch_version # XXX: recheck
   added: 2016-04-19
   last_checked: 2016-04-19
 
@@ -54,7 +54,7 @@
   methods:
     - paypal
   detection:
-    file-in-etc: gentoo_version
+    file-in-etc: gentoo-release
   added: 2016-04-19
   last_checked: 2016-04-19
 
