@@ -65,10 +65,12 @@
   detection: # XXX: turn into application entries which point here
     pkgnames:
       - kde
-      - kde4
       - kde-baseapps
-      - kde-runtime
+      - kde-plasma-apps
       - kde-plasma-desktop
+      - kde-plasma-runtime
+      - kde-runtime
+      - kde4
   added: 2016-04-19
   last_checked: 2016-04-19
 
