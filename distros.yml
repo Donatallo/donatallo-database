@@ -9,6 +9,16 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Calculate Linux
+  url: http://www.calculate-linux.org/
+  donations: http://www.calculate-linux.org/main/en/donate
+  methods:
+    - webmoney
+  detection:
+    file-in-etc: calculate
+  added: 2016-04-21
+  last_checked: 2016-04-21
+
 - name: Debian
   url: http://www.debian.org/
   donations: http://www.debian.org/donations
