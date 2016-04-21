@@ -59,7 +59,7 @@
   last_checked: 2016-04-19
 
 - name: Gentoo Linux
-  url: http://www.gentoo.org/
+  url: https://www.gentoo.org/
   donations: https://www.gentoo.org/donate/
   methods:
     - paypal
