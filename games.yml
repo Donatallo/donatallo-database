@@ -200,6 +200,17 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: "UFO: Alien Invasion"
+  comment: Squad-based tactical strategy game in the tradition of the X-COM games
+  url: http://ufoai.org/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - ufoai
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: Valyria Tear
   comment: Free J-RPG game
   url: http://valyriatear.blogspot.ru/
