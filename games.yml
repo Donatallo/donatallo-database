@@ -166,6 +166,19 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Pioneer
+  comment: Space adventure game set in our galaxy at the turn of the 31st century
+  url: http://www.pioneerspacesim.net/
+  donations: http://www.pioneerspacesim.net/donate
+  methods:
+    - paypal
+    - flattr
+  detection:
+    pkgnames:
+      - pioneer
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: Red Eclipse
   comment: Open-source arena shooter based on Cube2 engine
   url: http://redeclipse.net/
