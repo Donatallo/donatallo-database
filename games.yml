@@ -140,6 +140,18 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: OpenMW
+  comment: "Open source \"The Elders Crolls III: Morrowind\" reimplementation"
+  url: https://openmw.org/ru/
+  methods:
+    - pledgie
+    - patreon
+  detection:
+    pkgnames:
+      - openmw
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: OpenTTD
   comment: Open source simulation game based upon Transport Tycoon Deluxe
   url: https://www.openttd.org/
