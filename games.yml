@@ -51,6 +51,17 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Frogatto & Friends
+  comment: Action-adventure game, starring a certain quixotic frog
+  url: https://frogatto.com/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - frogatto
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: Godot Engine
   comment: Advanced, feature-packed, multi-platform 2D and 3D game engine
   url: http://www.godotengine.org/
