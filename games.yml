@@ -200,6 +200,17 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Valyria Tear
+  comment: Free J-RPG game
+  url: http://valyriatear.blogspot.ru/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - valyriatear
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: Warzone 2100
   comment: Innovative 3D real-time strategy game
   url: http://wz2100.net/
