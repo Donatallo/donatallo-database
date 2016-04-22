@@ -295,6 +295,24 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Transmission
+  comment: Fast, easy and free BitTorrent client
+  url: https://www.transmissionbt.com/
+  donations: https://www.transmissionbt.com/donate.php
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - transmission
+      - transmission-cli
+      - transmission-daemon
+      - transmission-gtk
+      - transmission-qt4
+      - transmission-remote-gui
+      - transmission-web
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: TuxGuitar
   comment: Open source tablature editor
   url: http://www.tuxguitar.com.ar/
