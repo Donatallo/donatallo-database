@@ -308,6 +308,17 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: WCM Commander
+  comment: Multi-platform open source file manager
+  url: http://wcm.linderdaum.com/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - wcmcommander
+  added: 2016-04-25
+  last_checked: 2016-04-25
+
 - name: Wine
   comment: Compatibility layer capable of running Windows applications
   url: https://www.winehq.org/
