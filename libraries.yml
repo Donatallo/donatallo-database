@@ -43,6 +43,18 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: OGRE3D
+  comment: Open-source graphics rendering engine
+  url: http://www.ogre3d.org/
+  donations: http://www.ogre3d.org/donations
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - ogre3d
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: OpenCV
   comment: Open source computer vision and machine learning software library
   url: http://opencv.org/

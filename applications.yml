@@ -240,6 +240,23 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Samba
+  comment: Standard Windows interoperability suite of programs for Linux and Unix
+  url: https://www.samba.org/
+  donations: https://www.samba.org/samba/donations.html
+  methods:
+    - cheque
+    - paypal
+  detection:
+    pkgnames: # XXX: needs periodical recheck
+      - samba
+      - samba36
+      - samba41
+      - samba42
+      - samba43
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: Stellarium
   comment: Free open source planetarium for your computer
   url: http://www.stellarium.org/
@@ -294,6 +311,24 @@
       - tor
   added: 2016-04-19
   last_checked: 2016-04-19
+
+- name: Transmission
+  comment: Fast, easy and free BitTorrent client
+  url: https://www.transmissionbt.com/
+  donations: https://www.transmissionbt.com/donate.php
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - transmission
+      - transmission-cli
+      - transmission-daemon
+      - transmission-gtk
+      - transmission-qt4
+      - transmission-remote-gui
+      - transmission-web
+  added: 2016-04-22
+  last_checked: 2016-04-22
 
 - name: TuxGuitar
   comment: Open source tablature editor

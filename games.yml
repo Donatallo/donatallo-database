@@ -51,6 +51,17 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Frogatto & Friends
+  comment: Action-adventure game, starring a certain quixotic frog
+  url: https://frogatto.com/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - frogatto
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: Godot Engine
   comment: Advanced, feature-packed, multi-platform 2D and 3D game engine
   url: http://www.godotengine.org/
@@ -140,6 +151,18 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: OpenMW
+  comment: "Open source \"The Elders Crolls III: Morrowind\" reimplementation"
+  url: https://openmw.org/ru/
+  methods:
+    - pledgie
+    - patreon
+  detection:
+    pkgnames:
+      - openmw
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
 - name: OpenTTD
   comment: Open source simulation game based upon Transport Tycoon Deluxe
   url: https://www.openttd.org/
@@ -165,6 +188,19 @@
       - openxcom
   added: 2016-04-19
   last_checked: 2016-04-19
+
+- name: Pioneer
+  comment: Space adventure game set in our galaxy at the turn of the 31st century
+  url: http://www.pioneerspacesim.net/
+  donations: http://www.pioneerspacesim.net/donate
+  methods:
+    - paypal
+    - flattr
+  detection:
+    pkgnames:
+      - pioneer
+  added: 2016-04-22
+  last_checked: 2016-04-22
 
 - name: Red Eclipse
   comment: Open-source arena shooter based on Cube2 engine
@@ -199,6 +235,28 @@
       - supertuxkart
   added: 2016-04-19
   last_checked: 2016-04-19
+
+- name: "UFO: Alien Invasion"
+  comment: Squad-based tactical strategy game in the tradition of the X-COM games
+  url: http://ufoai.org/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - ufoai
+  added: 2016-04-22
+  last_checked: 2016-04-22
+
+- name: Valyria Tear
+  comment: Free J-RPG game
+  url: http://valyriatear.blogspot.ru/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - valyriatear
+  added: 2016-04-22
+  last_checked: 2016-04-22
 
 - name: Warzone 2100
   comment: Innovative 3D real-time strategy game
