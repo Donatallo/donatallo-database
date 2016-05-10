@@ -295,6 +295,19 @@
   added: 2016-04-22
   last_checked: 2016-04-22
 
+- name: SMPlayer # XXX: auto-include mplayer
+  comment: Graphical user interface for MPlayer
+  url: http://smplayer.sourceforge.net/
+  donations: http://smplayer.sourceforge.net/en/contribute
+  methods:
+    - paypal
+    - bitcoin
+  detection:
+    pkgnames:
+      - smplayer
+  added: 2016-05-10
+  last_checked: 2016-05-10
+
 - name: Stellarium
   comment: Free open source planetarium for your computer
   url: http://www.stellarium.org/
