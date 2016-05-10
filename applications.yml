@@ -343,6 +343,17 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: vsftpd
+  comment: Secure and fast FTP server for UNIX-like systems
+  url: https://security.appspot.com/vsftpd.html
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - vsftpd
+  added: 2016-05-10
+  last_checked: 2016-05-10
+
 - name: WCM Commander
   comment: Multi-platform open source file manager
   url: http://wcm.linderdaum.com/
