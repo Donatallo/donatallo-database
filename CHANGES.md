@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.9.0
+
+* Added ```dash``` donation method
+
 ## 0.8.0
 
 * Added ```added``` and ```last_checked``` fields
