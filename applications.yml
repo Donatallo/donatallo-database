@@ -165,6 +165,17 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: mcabber
+  comment: Small XMPP (Jabber) console client
+  url: http://mcabber.com/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - mcabber
+  added: 2016-05-10
+  last_checked: 2016-05-10
+
 - name: MPlayer
   comment: High performance media player supporting many formats
   url: https://www.mplayerhq.hu/
