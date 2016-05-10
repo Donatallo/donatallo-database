@@ -53,6 +53,21 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: Claws Mail
+  comment: User-friendly, lightweight, and fast email client
+  url: http://www.claws-mail.org/
+  donations: http://www.claws-mail.org/sponsors.php?section=community
+  methods:
+    - bitcoin
+    - dash
+    - merchandise
+    - paypal
+  detection:
+    pkgnames:
+      - claws-mail
+  added: 2016-05-10
+  last_checked: 2016-05-10
+
 - name: Doxygen
   comment: 3D modeling/rendering/animation/gaming package
   url: http://doxygen.org/
