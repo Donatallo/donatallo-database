@@ -96,6 +96,18 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: GNU Octave
+  comment: High-level interactive language for numerical computations
+  url: https://www.gnu.org/software/octave/
+  donations: https://www.gnu.org/software/octave/donate.html
+  methods:
+    - bitcoin
+  detection:
+    pkgnames:
+      - octave
+  added: 2016-05-10
+  last_checked: 2016-05-10
+
 - name: GnuPG
   comment: GNU privacy guard - a free PGP replacement
   url: https://www.gnupg.org/
