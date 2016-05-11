@@ -65,3 +65,17 @@
       - opencv
   added: 2016-04-20
   last_checked: 2016-04-20
+
+- name: SFML
+  comment: Simple and Fast Multimedia Library
+  url: http://www.sfml-dev.org/
+  methods:
+    - paypal
+    - flattr
+  detection:
+    pkgnames:
+      - sfml
+      - sfml1
+      - sfml2
+  added: 2016-05-11
+  last_checked: 2016-05-11
