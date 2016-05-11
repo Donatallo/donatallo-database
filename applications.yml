@@ -158,6 +158,19 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: LeechCraft
+  comment: Cross-platform modular live environment
+  url: https://leechcraft.org/
+  donations: https://leechcraft.org/donate
+  methods:
+    - paypal
+    - yandex_money
+  detection:
+    pkgnames:
+      - leechcraft
+  added: 2016-05-11
+  last_checked: 2016-05-11
+
 - name: LibreOffice
   comment: Full integrated office productivity suite
   url: https://www.libreoffice.org/
