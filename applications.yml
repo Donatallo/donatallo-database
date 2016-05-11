@@ -171,6 +171,20 @@
   added: 2016-05-11
   last_checked: 2016-05-11
 
+- name: LFTP
+  comment: Sophisticated command line ftp/http client
+  url: https://lftp.yar.ru/
+  donations: https://lftp.yar.ru/contribute.html
+  methods:
+    - paypal
+    - webmoney
+    - flattr
+  detection:
+    pkgnames:
+      - lftp
+  added: 2016-05-11
+  last_checked: 2016-05-11
+
 - name: LibreOffice
   comment: Full integrated office productivity suite
   url: https://www.libreoffice.org/
