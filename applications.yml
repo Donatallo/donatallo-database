@@ -120,6 +120,7 @@
       - gnupg
       - gnupg1
       - gnupg2
+      - gnupg20
   added: 2016-04-19
   last_checked: 2016-04-19
 
