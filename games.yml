@@ -304,3 +304,14 @@
       - widelands
   added: 2016-04-19
   last_checked: 2016-04-19
+
+- name: Wyrmsun
+  comment: Strategy game with elements of mythology, history and fiction
+  url: http://www.indiedb.com/games/wyrmsun
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - wyrmsun
+  added: 2016-05-12
+  last_checked: 2016-05-12
