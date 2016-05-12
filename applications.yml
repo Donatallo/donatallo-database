@@ -329,6 +329,20 @@
   added: 2016-05-12
   last_checked: 2016-05-12
 
+- name: QuiteRSS
+  comment: Open-source cross-platform RSS/Atom news feeds reader
+  url: http://quiterss.org/
+  donations: http://quiterss.org/donations
+  methods:
+    - paypal
+    - yandex_money
+    - webmoney # wmr
+  detection:
+    pkgnames:
+      - quiterss
+  added: 2016-05-12
+  last_checked: 2016-05-12
+
 - name: Samba
   comment: Standard Windows interoperability suite of programs for Linux and Unix
   url: https://www.samba.org/
