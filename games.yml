@@ -51,6 +51,18 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: FlightGear
+  comment: Open-source flight simulator
+  url: http://www.flightgear.org/
+  donations: http://store.flightgear.org/
+  methods:
+    - merchandise
+  detection:
+    pkgnames:
+      - flightgear
+  added: 2016-05-12
+  last_checked: 2016-05-12
+
 - name: Frogatto & Friends
   comment: Action-adventure game, starring a certain quixotic frog
   url: https://frogatto.com/
