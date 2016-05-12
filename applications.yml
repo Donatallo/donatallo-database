@@ -305,6 +305,19 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: QGIS
+  comment: Free and Open Source Geographic Information System
+  url: http://www.qgis.org/
+  donations: http://www.qgis.org/en/site/getinvolved/donations.html
+  methods:
+    - paypal
+    - bank_transfer
+  detection:
+    pkgnames:
+      - qgis
+  added: 2016-05-12
+  last_checked: 2016-05-12
+
 - name: Samba
   comment: Standard Windows interoperability suite of programs for Linux and Unix
   url: https://www.samba.org/
