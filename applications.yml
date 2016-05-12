@@ -343,6 +343,7 @@
   detection:
     pkgnames:
       - stellarium
+      - stellarium-qt4
   added: 2016-04-20
   last_checked: 2016-04-20
 
