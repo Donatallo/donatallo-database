@@ -79,6 +79,22 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Enlightenment
+  comment: Artistic X window manager
+  url: https://www.enlightenment.org/
+  donations: https://www.enlightenment.org/contribute
+  location: France
+  methods:
+    - paypal
+    - flattr
+  detection:
+    pkgnames:
+      - enlightment
+      - e17
+      - e16
+  added: 2016-05-12
+  last_checked: 2016-05-12
+
 - name: GIMP
   comment: GNU Image Manipulation Program
   url: http://www.gimp.org/
