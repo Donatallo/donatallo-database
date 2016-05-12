@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.10.0
+
+* Added ```location``` field
+
 ## 0.9.0
 
 * Added ```dash``` donation method

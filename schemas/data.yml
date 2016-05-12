@@ -66,3 +66,6 @@ sequence:
       "last_checked":
         type: date
         required: true
+      "location":
+        type: str
+        required: false
