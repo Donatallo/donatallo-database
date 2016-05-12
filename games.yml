@@ -236,6 +236,18 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: Spring RTS engine
+  comment: Versatile 3D RTS game engine
+  url: https://springrts.com/
+  donations: https://springrts.com/wiki/Donations
+  methods:
+    - bitcoin
+  detection:
+    pkgnames:
+      - spring # not to be confused with J2EE framework
+  added: 2016-05-12
+  last_checked: 2016-05-12
+
 - name: SuperTuxKart
   comment: Free 3D kart racing game
   url: http://supertuxkart.sourceforge.net/
