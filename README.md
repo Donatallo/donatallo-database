@@ -21,7 +21,10 @@ which may lead to donations lost or went to wrong recipient.
 There's no clear policy on what projects may or may not be added
 to the database for now, though it's likely to be made up later.
 Author reserves the right to moderate the database based on his
-own judgment.
+own judgment. The rule of thumb is that the project should be
+[free software](https://en.wikipedia.org/wiki/Free_software) or
+other kind of free cultural work (data, knowledge, hardware, etc.).
+Among software, cross-platform projects are strongly preferred.
 
 ## Schema
 
