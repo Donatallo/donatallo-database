@@ -649,3 +649,18 @@
       - i386-wine-staging
   added: 2016-04-20
   last_checked: 2016-04-20
+
+- name: Xfce Desktop Environment
+  comment: Lightweight desktop environment for UNIX-like operating systems
+  url: http://www.xfce.org/
+  methods:
+    - bountysource
+  detection:
+    pkgnames:
+      - xfce4
+      - xfce4-desktop
+      - xfce4-panel
+      - xfce4-session
+      - xfce4-wm
+  added: 2016-05-17
+  last_checked: 2016-05-17
