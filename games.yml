@@ -60,6 +60,7 @@
   detection:
     pkgnames:
       - flightgear
+      - simgear
   added: 2016-05-12
   last_checked: 2016-05-12
 
