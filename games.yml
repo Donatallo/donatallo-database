@@ -214,6 +214,19 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: Pingus
+  comment: Free Lemmings-like puzzle game
+  url: http://pingus.seul.org/
+  donations: http://pingus.seul.org/welcome.html
+  methods:
+    - paypal
+    - bitcoin
+  detection:
+    pkgnames:
+      - pingus
+  added: 2016-05-16
+  last_checked: 2016-05-16
+
 - name: Pioneer
   comment: Space adventure game set in our galaxy at the turn of the 31st century
   url: http://www.pioneerspacesim.net/
