@@ -502,6 +502,20 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: uTox
+  comment: Lightweight Tox client
+  url: http://utox.org/
+  donations: http://utox.org/donate.html
+  methods:
+    - paypal
+    - bitcoin
+  detection:
+    pkgnames:
+      - uTox
+      - utox
+  added: 2016-05-16
+  last_checked: 2016-05-16
+
 - name: vsftpd
   comment: Secure and fast FTP server for UNIX-like systems
   url: https://security.appspot.com/vsftpd.html
