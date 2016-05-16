@@ -493,6 +493,19 @@
   added: 2016-05-10
   last_checked: 2016-05-10
 
+- name: Squid
+  comment: HTTP caching proxy
+  url: http://www.squid-cache.org/
+  donations: http://www.squid-cache.org/Foundation/donate.html
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - squid
+      - squid-devel
+  added: 2016-05-17
+  last_checked: 2016-05-17
+
 - name: Stellarium
   comment: Free open source planetarium for your computer
   url: http://www.stellarium.org/
