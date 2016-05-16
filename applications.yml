@@ -397,6 +397,19 @@
   added: 2016-05-12
   last_checked: 2016-05-12
 
+- name: Qmmp
+  comment: Qt-based multimedia player
+  url: http://qmmp.ylsoftware.com/
+  methods:
+    - paypal
+    - webmoney # wmr, wmz, wme
+    - bitcoin
+  detection:
+    pkgnames:
+      - qmmp
+  added: 2016-05-16
+  last_checked: 2016-05-16
+
 - name: QuiteRSS
   comment: Open-source cross-platform RSS/Atom news feeds reader
   url: http://quiterss.org/
