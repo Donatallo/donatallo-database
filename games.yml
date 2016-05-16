@@ -217,7 +217,6 @@
 - name: Pingus
   comment: Free Lemmings-like puzzle game
   url: http://pingus.seul.org/
-  donations: http://pingus.seul.org/welcome.html
   methods:
     - paypal
     - bitcoin
