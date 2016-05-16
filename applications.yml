@@ -327,6 +327,21 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: MATE Desktop Environment
+  comment: Intuitive and attractive desktop environment forked from GNOME 2
+  url: http://mate-desktop.org/
+  donations: http://mate-desktop.org/donate/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - mate
+      - mate-base
+      - mate-desktop
+      - mate-panel
+  added: 2016-05-17
+  last_checked: 2016-05-17
+
 - name: mcabber
   comment: Small XMPP (Jabber) console client
   url: http://mcabber.com/
