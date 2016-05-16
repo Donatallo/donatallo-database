@@ -151,6 +151,18 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: GPSBabel
+  comment: GPS file translating tool
+  url: http://www.gpsbabel.org/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - gpsbabel
+      - gpsbabel14
+  added: 2016-05-16
+  last_checked: 2016-05-16
+
 - name: HAProxy
   comment: Reliable, High Performance TCP/HTTP Load Balancer
   url: http://www.haproxy.org/
