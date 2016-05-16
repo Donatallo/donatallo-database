@@ -360,6 +360,17 @@
   added: 2016-05-12
   last_checked: 2016-05-12
 
+- name: rdesktop
+  comment: UNIX client for connecting to Windows Remote Desktop Services
+  url: http://www.rdesktop.org/
+  methods:
+    - bountysource
+  detection:
+    pkgnames:
+      - rdesktop
+  added: 2016-05-16
+  last_checked: 2016-05-16
+
 - name: Samba
   comment: Standard Windows interoperability suite of programs for Linux and Unix
   url: https://www.samba.org/
