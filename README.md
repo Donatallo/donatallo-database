@@ -45,6 +45,7 @@ entries with following fields:
 ### Donation methods
 
 * ```amazon``` - [Amazon Payments](https://payments.amazon.com/)
+* ```anoncoin``` - [Anoncoin](https://anoncoin.net/) privacy-centric cryptocurrency
 * ```bank_transfer``` - Bank transfer
 * ```bitcoin``` - [Bitcoin](https://bitcoin.org/) cryprocurrency
 * ```bountysource``` - [BountySource](https://www.bountysource.com/) funding platform for open-source software
@@ -57,6 +58,7 @@ entries with following fields:
 * ```hardware``` - Hardware donations
 * ```litecoin``` - [Litecoin](https://litecoin.org/) cryptocurrency
 * ```merchandise``` - Possible to donate through purchasing merchandise
+* ```monero``` - [Monero](https://getmonero.org/) cryptocurrency
 * ```patreon``` - [Patreon](https://www.patreon.com/) crowdfunding platform
 * ```paypal``` - [PayPal](https://www.paypal.com/) online payments system
 * ```pledgie``` - [Pledgie](https://pledgie.com/) online fundraising service

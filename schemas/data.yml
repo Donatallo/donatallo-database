@@ -26,6 +26,7 @@ sequence:
             unique: yes
             enum:
               - amazon
+              - anoncoin
               - bank_transfer
               - bitcoin
               - bountysource
@@ -38,6 +39,7 @@ sequence:
               - hardware
               - litecoin
               - merchandise
+              - monero
               - patreon
               - paypal
               - pledgie

@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.11.0
+
+* Added ```anoncoin``` and ```monero``` donation methods
+
 ## 0.10.0
 
 * Added ```location``` field
