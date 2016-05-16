@@ -13,6 +13,18 @@
   added: 2016-04-19
   last_checked: 2016-04-19
 
+- name: D2X-XL
+  comment: OpenGL modification of the classic video game Descent
+  url: http://www.descent2.de/
+  donations: http://www.descent2.de/donate.html
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - d2x-xl
+  added: 2015-05-16
+  last_checked: 2016-05-16
+
 - name: DOSBox
   comment: X86 emulator with DOS
   url: http://www.dosbox.com/
