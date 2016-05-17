@@ -1,5 +1,9 @@
 # Database version history
 
+## 0.12.0
+
+* Introduced payment method icons
+
 ## 0.11.0
 
 * Added ```anoncoin``` and ```monero``` donation methods
