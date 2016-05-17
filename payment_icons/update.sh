@@ -24,7 +24,8 @@ echo "===> Cheque"
 wget http://icons.iconarchive.com/icons/fatcow/farm-fresh/32/cheque-icon.png -qO cheque.png # cc-by
 
 echo "===> WebMoney"
-wget http://www.wmtransfer.com/favicon.ico -qO- | convert 'ico:-[0]' webmoney.png
+# also may use https://www.webmoney.ru/img/wmkeeper_32x32.png, not sure which is more recognizable
+wget https://www.webmoney.ru/img/icons/wmlogo_32.png -qO webmoney.png
 
 echo "===> Western Union"
 wget https://www.westernunion.com/etc/designs/wu/favicon.ico -qO- | convert 'ico:-' western_union.png
