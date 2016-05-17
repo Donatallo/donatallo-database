@@ -35,5 +35,8 @@ wget https://clickandpledge.com/favicon.ico -qO- | convert 'ico:-' clickandpledg
 echo "===> Amazon"
 wget http://www.amazon.com/favicon.ico -qO- | convert 'ico:-[1]' amazon.png
 
+echo "===> Patreon"
+wget https://s3.amazonaws.com/patreon_public_assets/favicons/favicon-96x96.png -qO- | convert -channel rgba -resize 32x32 'png:-' patreon.png
+
 echo "===> Optimizing"
 optipng -q -o99 *.png
