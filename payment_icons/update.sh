@@ -39,5 +39,15 @@ wget http://www.amazon.com/favicon.ico -qO- | convert 'ico:-[1]' amazon.png
 echo "===> Patreon"
 wget https://s3.amazonaws.com/patreon_public_assets/favicons/favicon-96x96.png -qO- | convert -channel rgba -resize 32x32 'png:-' patreon.png
 
+echo "===> Litecoin"
+wget https://litecoin.org/images/favicon/favicon-32x32-72a26c12.png -qO litecoin.png
+
+echo "===> Stripe"
+wget https://stripe.com/favicon.ico -qO- | convert 'ico:-[1]' stripe.png
+
+echo "===> Bountysource"
+#wget https://www.bountysource.com/favicon.ico -qO- | convert 'ico:-' bountysource.png
+wget https://cloudinary-a.akamaihd.net/bountysource/image/upload/d_noaoqqwxegvmulwus0un.png,c_pad,w_100,h_100,b_white/caxnpzz0uhmvxk9jfmz4.png -qO- | convert -channel rgba -resize 32x32 -depth 8 png:- bountysource.png
+
 echo "===> Optimizing"
 optipng -q -o99 *.png
