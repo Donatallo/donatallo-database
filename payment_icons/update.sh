@@ -49,5 +49,8 @@ echo "===> Bountysource"
 #wget https://www.bountysource.com/favicon.ico -qO- | convert 'ico:-' bountysource.png
 wget https://cloudinary-a.akamaihd.net/bountysource/image/upload/d_noaoqqwxegvmulwus0un.png,c_pad,w_100,h_100,b_white/caxnpzz0uhmvxk9jfmz4.png -qO- | convert -channel rgba -resize 32x32 -depth 8 png:- bountysource.png
 
+echo "===> Dash"
+wget https://www.dash.org/wp-content/uploads/2016/04/cropped-dash_icon_l-e1460606172897-1-32x32.png -qO dash.png
+
 echo "===> Optimizing"
 optipng -q -o99 *.png
