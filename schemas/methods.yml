@@ -9,5 +9,5 @@ sequence:
         required: true
         type: str
       "name":
+        required: true
         type: str
-        length: { max : 70 }
