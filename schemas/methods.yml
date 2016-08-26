@@ -5,7 +5,7 @@ sequence:
   - type: map
     required: yes
     mapping:
-      "id":
+      "keyword":
         required: true
         type: str
       "name":
