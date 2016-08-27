@@ -8,6 +8,7 @@ sequence:
       "name":
         required: true
         type: str
+        unique: yes
       "comment":
         type: str
         length: { max : 70 }
