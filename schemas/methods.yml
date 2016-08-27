@@ -1,0 +1,15 @@
+---
+type: seq
+required: yes
+sequence:
+  - type: map
+    required: yes
+    mapping:
+      "keyword":
+        required: true
+        type: str
+        unique: yes
+      "name":
+        required: true
+        type: str
+        unique: yes

@@ -5,7 +5,14 @@ mapping:
     required: true
     type: str
     pattern: /^\d+\.\d+\.\d+$/
-  "files":
+  "methods":
+    required: true
+    type: seq
+    sequence:
+      - unique: true
+        type: str
+        pattern: /.*\.yml$/
+  "projects":
     required: true
     type: seq
     sequence:
