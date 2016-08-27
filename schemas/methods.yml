@@ -8,6 +8,8 @@ sequence:
       "keyword":
         required: true
         type: str
+        unique: yes
       "name":
         required: true
         type: str
+        unique: yes
