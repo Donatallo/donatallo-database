@@ -31,7 +31,9 @@ echo "===> Western Union"
 wget https://www.westernunion.com/etc/designs/wu/favicon.ico -qO- | convert 'ico:-' western_union.png
 
 echo "===> Click & Pledge"
-wget https://clickandpledge.com/favicon.ico -qO- | convert 'ico:-' clickandpledge.png
+# ugly 16x16 px crap
+#wget https://clickandpledge.com/favicon.ico -qO- | convert 'ico:-' clickandpledge.png
+wget https://forums.clickandpledge.com/core/avatars/0/0/1/7/4/5/avatar1_8.png -qO- | convert -channel rgba -resize 32x32 'png:-' clickandpledge.png
 
 echo "===> Amazon"
 wget http://www.amazon.com/favicon.ico -qO- | convert 'ico:-[1]' amazon.png
