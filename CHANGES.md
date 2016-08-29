@@ -1,5 +1,9 @@
 # Database version history
 
+## 1.0.0
+
+* Moved donation methods information to the database
+
 ## 0.12.0
 
 * Introduced payment method icons

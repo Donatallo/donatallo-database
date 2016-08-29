@@ -1,0 +1,47 @@
+---
+- keyword: amazon
+  name: Amazon Payments
+- keyword: anoncoin
+  name: Anoncoin
+- keyword: bank_transfer
+  name: Bank transfer
+- keyword: bitcoin
+  name: Bitcoin
+- keyword: bountysource
+  name: Bountysource
+- keyword: cheque
+  name: Cheque
+- keyword: clickandpledge
+  name: Click & Pledge
+- keyword: credit_card
+  name: Credit Card
+- keyword: dash
+  name: Dash
+- keyword: dwolla
+  name: Dwolla
+- keyword: flattr
+  name: Flattr
+- keyword: hardware
+  name: Hardware donation
+- keyword: litecoin
+  name: Litecoin
+- keyword: merchandise
+  name: Merchandise
+- keyword: monero
+  name: Monero
+- keyword: patreon
+  name: Patreon
+- keyword: paypal
+  name: PayPal
+- keyword: pledgie
+  name: Pledgie
+- keyword: stripe
+  name: Stripe
+- keyword: tibit
+  name: Tibit
+- keyword: webmoney
+  name: WebMoney
+- keyword: western_union
+  name: Western Union
+- keyword: yandex_money
+  name: Yandex.Money

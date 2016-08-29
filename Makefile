@@ -6,8 +6,10 @@ check:
 	@for f in *.yml; do \
 		if [ "$$f" = "meta.yml" ]; then \
 			kwalify -lf schemas/meta.yml "$$f"; \
+		elif [ "$$f" = "methods.yml" ]; then \
+			kwalify -lf schemas/methods.yml "$$f"; \
 		else \
-			kwalify -lf schemas/data.yml "$$f"; \
+			kwalify -lf schemas/projects.yml "$$f"; \
 		fi; \
 	done | tee kwalify.log
 	@if grep -q INVALID kwalify.log; then \
