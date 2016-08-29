@@ -25,6 +25,9 @@ are copyrighted by them and provided here on fail use basis:
 - paypal.png
   Obtained from: http://paypal.com/favicon.ico
 
+- pledgie.png
+  Obtained from: https://pledgie.com/assets/logo-0b66234d5dd1a8d1ea0a47346e40ec46.png
+
 - stripe.png
   Obtained from: https://stripe.com/favicon.ico
 

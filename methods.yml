@@ -45,6 +45,7 @@
   icon: payment_icons/paypal.png
 - keyword: pledgie
   name: Pledgie
+  icon: payment_icons/pledgie.png
 - keyword: stripe
   name: Stripe
   icon: payment_icons/stripe.png
