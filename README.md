@@ -28,7 +28,7 @@ Among software, cross-platform projects are strongly preferred.
 
 ## Schema
 
-Database consists of ```meta.yml``` file which contains schema
+Database consists of ```meta.yaml``` file which contains schema
 version and a list of data files. Each data file is an array of
 entries with following fields:
 
