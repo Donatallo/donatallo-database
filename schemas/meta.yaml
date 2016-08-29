@@ -11,11 +11,11 @@ mapping:
     sequence:
       - unique: true
         type: str
-        pattern: /.*\.yml$/
+        pattern: /.*\.yaml$/
   "projects":
     required: true
     type: seq
     sequence:
       - unique: true
         type: str
-        pattern: /.*\.yml$/
+        pattern: /.*\.yaml$/

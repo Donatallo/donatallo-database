@@ -1,0 +1,11 @@
+---
+version: 1.1.0
+methods:
+  - methods.yaml
+projects:
+  - applications.yaml
+  - distros.yaml
+  - games.yaml
+  - libraries.yaml
+  - organizations.yaml
+  - projects.yaml
