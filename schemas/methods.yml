@@ -13,3 +13,5 @@ sequence:
         required: true
         type: str
         unique: yes
+      "icon":
+        type: str

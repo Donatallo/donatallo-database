@@ -1,47 +1,61 @@
 ---
 - keyword: amazon
   name: Amazon Payments
+  icon: payment_icons/amazon.png
 - keyword: anoncoin
   name: Anoncoin
 - keyword: bank_transfer
   name: Bank transfer
 - keyword: bitcoin
   name: Bitcoin
+  icon: payment_icons/bitcoin.png
 - keyword: bountysource
   name: Bountysource
+  icon: payment_icons/bountysource.png
 - keyword: cheque
   name: Cheque
+  icon: payment_icons/cheque.png
 - keyword: clickandpledge
   name: Click & Pledge
+  icon: payment_icons/clickandpledge.png
 - keyword: credit_card
   name: Credit Card
 - keyword: dash
   name: Dash
+  icon: payment_icons/dash.png
 - keyword: dwolla
   name: Dwolla
 - keyword: flattr
   name: Flattr
+  icon: payment_icons/flattr.png
 - keyword: hardware
   name: Hardware donation
 - keyword: litecoin
   name: Litecoin
+  icon: payment_icons/litecoin.png
 - keyword: merchandise
   name: Merchandise
 - keyword: monero
   name: Monero
 - keyword: patreon
   name: Patreon
+  icon: payment_icons/patreon.png
 - keyword: paypal
   name: PayPal
+  icon: payment_icons/paypal.png
 - keyword: pledgie
   name: Pledgie
 - keyword: stripe
   name: Stripe
+  icon: payment_icons/stripe.png
 - keyword: tibit
   name: Tibit
 - keyword: webmoney
   name: WebMoney
+  icon: payment_icons/webmoney.png
 - keyword: western_union
   name: Western Union
+  icon: payment_icons/western_union.png
 - keyword: yandex_money
   name: Yandex.Money
+  icon: payment_icons/yandex_money.png
