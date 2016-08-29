@@ -31,14 +31,15 @@ for file in "$@"; do
 		# also may use https://www.webmoney.ru/img/wmkeeper_32x32.png, not sure which is more recognizable
 		wget https://www.webmoney.ru/img/icons/wmlogo_32.png -qO $file
 		;;
-#	western_union.png)
-#		# crap
-#		wget https://www.westernunion.com/etc/designs/wu/favicon.ico -qO- | convert 'ico:-' $file
-#		;;
+	western_union.png)
+		# crap
+		#wget https://www.westernunion.com/etc/designs/wu/favicon.ico -qO- | convert 'ico:-' $file
+		;;
 	clickandpledge.png)
 		# ugly 16x16 px crap
 		#wget https://clickandpledge.com/favicon.ico -qO- | convert 'ico:-' clickandpledge.png
-		wget https://forums.clickandpledge.com/core/avatars/0/0/1/7/4/5/avatar1_8.png -qO- | convert -channel rgba -resize 32x32 'png:-' $file
+		# convert gives blurry image
+		#wget https://forums.clickandpledge.com/core/avatars/0/0/1/7/4/5/avatar1_8.png -qO- | convert -channel rgba -resize 32x32 'png:-' $file
 		;;
 	amazon.png)
 		wget http://www.amazon.com/favicon.ico -qO- | convert 'ico:-[1]' $file
