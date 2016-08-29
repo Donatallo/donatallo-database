@@ -13,6 +13,9 @@ are copyrighted by them and provided here on fail use basis:
 - dash.png
   Obtained from: https://www.dash.org/wp-content/uploads/2016/04/cropped-dash_icon_l-e1460606172897-1-32x32.png
 
+- dwolla.png
+  Obtained from: https://www.dwolla.com/cmscontent/images/icons/favicon.png
+
 - flattr.png
   Obtained from: https://flattr.com/images/favicons/favicon-32x32.png
 

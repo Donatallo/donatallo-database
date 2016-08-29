@@ -25,6 +25,7 @@
   icon: payment_icons/dash.png
 - keyword: dwolla
   name: Dwolla
+  icon: payment_icons/dwolla.png
 - keyword: flattr
   name: Flattr
   icon: payment_icons/flattr.png
