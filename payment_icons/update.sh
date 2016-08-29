@@ -12,8 +12,7 @@ for file in "$@"; do
 	echo "===> $file"
 	case $file in
 	paypal.png)
-		# not really an ICO
-		wget http://paypal.com/favicon.ico -qO $file
+		wget http://paypal.com/favicon.ico -qO- | convert 'ico:-[0]' $file
 		;;
 	bitcoin.png)
 		wget https://upload.wikimedia.org/wikipedia/commons/4/46/Bitcoin.svg -qO- | convert -size 32x32 -depth 8 -background transparent svg:- $file
