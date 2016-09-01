@@ -4,6 +4,7 @@
   icon: payment_icons/amazon.png
 - keyword: anoncoin
   name: Anoncoin
+  icon: payment_icons/anoncoin.png
 - keyword: bank_transfer
   name: Bank transfer
 - keyword: bitcoin

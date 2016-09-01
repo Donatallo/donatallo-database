@@ -4,6 +4,9 @@ are copyrighted by them and provided here on fail use basis:
 - amazon.png
   Obtained from: http://www.amazon.com/favicon.ico
 
+- anoncoin.png
+  Obtained from: https://anoncoin.net/anoncoin-logo@2x.png
+
 - bountysource.png
   Obtained from: https://cloudinary-a.akamaihd.net/bountysource/image/upload/d_noaoqqwxegvmulwus0un.png,c_pad,w_100,h_100,b_white/caxnpzz0uhmvxk9jfmz4.png
 

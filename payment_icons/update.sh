@@ -59,6 +59,9 @@ for file in "$@"; do
 	dash.png)
 		wget https://www.dash.org/wp-content/uploads/2016/04/cropped-dash_icon_l-e1460606172897-1-32x32.png -qO $file
 		;;
+	anoncoin.png)
+		wget https://anoncoin.net/anoncoin-logo@2x.png -qO- | convert -channel rgba -resize 32x32 'png:-' $file
+		;;
 	*)
 		echo "$1 not supported, likely was crafted by hand"
 		;;
