@@ -54,6 +54,7 @@
   icon: payment_icons/stripe.png
 - keyword: tibit
   name: Tibit
+  icon: payment_icons/tibit.png
 - keyword: webmoney
   name: WebMoney
   icon: payment_icons/webmoney.png

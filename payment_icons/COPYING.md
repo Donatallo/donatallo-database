@@ -40,6 +40,9 @@ are copyrighted by them and provided here on fail use basis:
 - stripe.png
   Obtained from: https://stripe.com/favicon.ico
 
+- tibit.png
+  Obtained from: https://tibit.com/favicon.ico
+
 - webmoney.png
   Obtained from: https://www.webmoney.ru/img/icons/wmlogo_32.png
 

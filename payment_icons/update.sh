@@ -65,6 +65,9 @@ for file in "$@"; do
 	monero.png)
 		wget https://getmonero.org/favicon-96x96.png -qO- | convert -channel rgba -resize 32x32 'png:-' $file
 		;;
+	tibit.png)
+		wget https://tibit.com/favicon.ico -qO- | convert 'ico:-[0]' $file
+		;;
 	*)
 		echo "$1 not supported, likely was crafted by hand"
 		;;
