@@ -39,6 +39,7 @@
   name: Merchandise
 - keyword: monero
   name: Monero
+  icon: payment_icons/monero.png
 - keyword: patreon
   name: Patreon
   icon: payment_icons/patreon.png

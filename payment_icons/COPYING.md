@@ -25,6 +25,9 @@ are copyrighted by them and provided here on fail use basis:
 - litecoin.png
   Obtained from: https://litecoin.org/images/favicon/favicon-32x32-72a26c12.png
 
+- monero.png
+  Obtained from: https://getmonero.org/favicon-96x96.png
+
 - patreon.png
   Obtained from: https://s3.amazonaws.com/patreon_public_assets/favicons/favicon-96x96.png
 
