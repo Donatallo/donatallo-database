@@ -30,14 +30,17 @@
 - name: awesome
   comment: Highly configurable, next generation framework window manager for X
   url: https://awesomewm.org/
+  donations: https://awesomewm.org/community/
   methods:
     - paypal
+    - bitcoin
+    - flattr
   detection:
     pkgnames:
       - awesome
       - awesome2
   added: 2016-05-17
-  last_checked: 2016-05-17
+  last_checked: 2016-09-01
 
 - name: BitlBee
   comment: IRC to other chat networks gateway
