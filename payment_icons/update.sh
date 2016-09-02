@@ -8,6 +8,8 @@
 # - optipng (for png optimization)
 #
 
+maskargs="mask.png -alpha Off -compose CopyOpacity -composite"
+
 for file in "$@"; do
 	echo "===> $file"
 	case $file in
@@ -50,11 +52,11 @@ for file in "$@"; do
 		wget https://litecoin.org/images/favicon/favicon-32x32-72a26c12.png -qO $file
 		;;
 	stripe.png)
-		wget https://stripe.com/favicon.ico -qO- | convert 'ico:-[1]' $file
+		wget https://stripe.com/favicon.ico -qO- | convert 'ico:-[1]' $maskargs $file
 		;;
 	bountysource.png)
 		#wget https://www.bountysource.com/favicon.ico -qO- | convert 'ico:-' bountysource.png
-		wget https://cloudinary-a.akamaihd.net/bountysource/image/upload/d_noaoqqwxegvmulwus0un.png,c_pad,w_100,h_100,b_white/caxnpzz0uhmvxk9jfmz4.png -qO- | convert -channel rgba -resize 32x32 -depth 8 png:- $file
+		wget https://cloudinary-a.akamaihd.net/bountysource/image/upload/d_noaoqqwxegvmulwus0un.png,c_pad,w_100,h_100,b_white/caxnpzz0uhmvxk9jfmz4.png -qO- | convert -channel rgba -resize 32x32 -depth 8 png:- $maskargs $file
 		;;
 	dash.png)
 		wget https://www.dash.org/wp-content/uploads/2016/04/cropped-dash_icon_l-e1460606172897-1-32x32.png -qO $file
@@ -66,7 +68,7 @@ for file in "$@"; do
 		wget https://getmonero.org/favicon-96x96.png -qO- | convert -channel rgba -resize 32x32 'png:-' $file
 		;;
 	tibit.png)
-		wget https://tibit.com/favicon.ico -qO- | convert 'ico:-[0]' $file
+		wget https://tibit.com/favicon.ico -qO- | convert 'ico:-[0]' $maskargs $file
 		;;
 	*)
 		echo "$1 not supported, likely was crafted by hand"
