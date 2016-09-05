@@ -59,8 +59,7 @@ Other icons are available under free licenses:
   License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/)
   WWW: https://commons.wikimedia.org/wiki/File:Bitcoin.svg
 
-- cheque.png
-  Obtained from: http://icons.iconarchive.com/icons/fatcow/farm-fresh/32/cheque-icon.png
+- bank_transfer.png, cheque.png, credit_card.png, hardware.png, merchandise.png
+  Part of Donatallo project
   License: [CC-by 4.0](https://creativecommons.org/licenses/by/4.0/)
-  WWW: http://www.fatcow.com/free-icons
-  WWW: http://www.iconarchive.com/show/farm-fresh-icons-by-fatcow/cheque-icon.html
+  WWW: https://github.com/Donatallo/donatallo-icons

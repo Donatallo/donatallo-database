@@ -7,6 +7,7 @@
   icon: payment_icons/anoncoin.png
 - keyword: bank_transfer
   name: Bank transfer
+  icon: payment_icons/bank_transfer.png
 - keyword: bitcoin
   name: Bitcoin
   icon: payment_icons/bitcoin.png
@@ -21,6 +22,7 @@
   icon: payment_icons/clickandpledge.png
 - keyword: credit_card
   name: Credit Card
+  icon: payment_icons/credit_card.png
 - keyword: dash
   name: Dash
   icon: payment_icons/dash.png
@@ -32,11 +34,13 @@
   icon: payment_icons/flattr.png
 - keyword: hardware
   name: Hardware donation
+  icon: payment_icons/hardware.png
 - keyword: litecoin
   name: Litecoin
   icon: payment_icons/litecoin.png
 - keyword: merchandise
   name: Merchandise
+  icon: payment_icons/merchandise.png
 - keyword: monero
   name: Monero
   icon: payment_icons/monero.png
