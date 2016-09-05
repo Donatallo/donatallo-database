@@ -1,70 +1,70 @@
 ---
 - keyword: amazon
   name: Amazon Payments
-  icon: payment_icons/amazon.png
+  icon: method_icons/amazon.png
 - keyword: anoncoin
   name: Anoncoin
-  icon: payment_icons/anoncoin.png
+  icon: method_icons/anoncoin.png
 - keyword: bank_transfer
   name: Bank transfer
-  icon: payment_icons/bank_transfer.png
+  icon: method_icons/bank_transfer.png
 - keyword: bitcoin
   name: Bitcoin
-  icon: payment_icons/bitcoin.png
+  icon: method_icons/bitcoin.png
 - keyword: bountysource
   name: Bountysource
-  icon: payment_icons/bountysource.png
+  icon: method_icons/bountysource.png
 - keyword: cheque
   name: Cheque
-  icon: payment_icons/cheque.png
+  icon: method_icons/cheque.png
 - keyword: clickandpledge
   name: Click & Pledge
-  icon: payment_icons/clickandpledge.png
+  icon: method_icons/clickandpledge.png
 - keyword: credit_card
   name: Credit Card
-  icon: payment_icons/credit_card.png
+  icon: method_icons/credit_card.png
 - keyword: dash
   name: Dash
-  icon: payment_icons/dash.png
+  icon: method_icons/dash.png
 - keyword: dwolla
   name: Dwolla
-  icon: payment_icons/dwolla.png
+  icon: method_icons/dwolla.png
 - keyword: flattr
   name: Flattr
-  icon: payment_icons/flattr.png
+  icon: method_icons/flattr.png
 - keyword: hardware
   name: Hardware donation
-  icon: payment_icons/hardware.png
+  icon: method_icons/hardware.png
 - keyword: litecoin
   name: Litecoin
-  icon: payment_icons/litecoin.png
+  icon: method_icons/litecoin.png
 - keyword: merchandise
   name: Merchandise
-  icon: payment_icons/merchandise.png
+  icon: method_icons/merchandise.png
 - keyword: monero
   name: Monero
-  icon: payment_icons/monero.png
+  icon: method_icons/monero.png
 - keyword: patreon
   name: Patreon
-  icon: payment_icons/patreon.png
+  icon: method_icons/patreon.png
 - keyword: paypal
   name: PayPal
-  icon: payment_icons/paypal.png
+  icon: method_icons/paypal.png
 - keyword: pledgie
   name: Pledgie
-  icon: payment_icons/pledgie.png
+  icon: method_icons/pledgie.png
 - keyword: stripe
   name: Stripe
-  icon: payment_icons/stripe.png
+  icon: method_icons/stripe.png
 - keyword: tibit
   name: Tibit
-  icon: payment_icons/tibit.png
+  icon: method_icons/tibit.png
 - keyword: webmoney
   name: WebMoney
-  icon: payment_icons/webmoney.png
+  icon: method_icons/webmoney.png
 - keyword: western_union
   name: Western Union
-  icon: payment_icons/western_union.png
+  icon: method_icons/western_union.png
 - keyword: yandex_money
   name: Yandex.Money
-  icon: payment_icons/yandex_money.png
+  icon: method_icons/yandex_money.png
