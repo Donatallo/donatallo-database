@@ -404,11 +404,14 @@
       - postgresql93-server
       - postgresql94-server
       - postgresql95-server
+      - postgresql96-server
       - postgresql
       - postgresql-9.4
+      - postgresql-9.5
+      - postgresql-9.6
       - postgresql-server
   added: 2016-04-20
-  last_checked: 2016-04-20
+  last_checked: 2016-09-06
 
 - name: Psi
   comment: Qt 4 based Jabber client
