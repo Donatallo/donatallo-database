@@ -80,6 +80,20 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: convmv
+  comment: Convert filenames from one encoding to another
+  url: https://www.j3e.de/linux/convmv/
+  donations: https://www.j3e.de/donate.html
+  methods:
+    - bitcoin
+    - paypal
+    - bank_transfer # mentioned as giro transfer; same thing?
+  detection:
+    pkgnames:
+      - convmv
+  added: 2016-09-13
+  last_checked: 2016-09-13
+
 - name: Claws Mail
   comment: User-friendly, lightweight, and fast email client
   url: http://www.claws-mail.org/
