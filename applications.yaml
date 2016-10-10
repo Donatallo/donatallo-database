@@ -165,6 +165,18 @@
   added: 2016-05-10
   last_checked: 2016-05-10
 
+- name: GNUJump
+  comment: Platform game where you have to jump up to survive
+  url: http://gnujump.es.gnu.org/index.php/Main_Page
+  donations: http://gnujump.es.gnu.org/index.php/Contribute
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - gnujump
+  added: 2016-10-10
+  last_checked: 2016-10-10
+
 - name: GnuPG
   comment: GNU privacy guard - a free PGP replacement
   url: https://www.gnupg.org/
