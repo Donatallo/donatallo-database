@@ -324,6 +324,17 @@
   added: 2016-04-20
   last_checked: 2016-04-20
 
+- name: LordsAWar!
+  comment: Turn-based strategy game similar to Warlords II
+  url: http://www.nongnu.org/lordsawar/
+  methods:
+    - paypal
+  detection:
+    pkgnames:
+      - lordsawar
+  added: 2016-10-11
+  last_checked: 2016-10-11
+
 - name: Lua
   comment: Powerful, fast, lightweight, embeddable scripting language
   url: https://www.lua.org/
